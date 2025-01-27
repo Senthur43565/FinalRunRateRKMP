@@ -1,5 +1,14 @@
 package org.example.finalrunrater.MAIN.domain.Entities
 
+/**
+Important Notes:
+ This is the first step in defining the Entity Package inside the domain package..
+* MatchEntity is a data class that represents a match in the application.
+* It contains various properties, including the match's unique identifier, teams, start time,
+ * status, betting options, winner, and timestamps for creation and last update.
+ **/
+
+
 data class MatchEntity(
     val id: String,                  // Unique identifier for the match
     val teams: List<String>,          // Teams playing in the match

@@ -1,4 +1,4 @@
-package org.example.finalrunrater.MAIN.domain.Entities
+package org.example.finalrunrater.MAIN.domain.Enums
 
 enum class EnumsforBetTypes {
     BALL_BY_BALL,

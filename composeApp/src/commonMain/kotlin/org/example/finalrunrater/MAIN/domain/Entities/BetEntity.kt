@@ -1,5 +1,8 @@
 package org.example.finalrunrater.MAIN.domain.Entities
 
+import org.example.finalrunrater.MAIN.domain.Enums.EnumforBetStatus
+import org.example.finalrunrater.MAIN.domain.Enums.EnumsforBetTypes
+
 data class BetEntity(
     val id: String,              // Unique identifier for the bet
     val user: UserEntity,              // The user who placed the bet

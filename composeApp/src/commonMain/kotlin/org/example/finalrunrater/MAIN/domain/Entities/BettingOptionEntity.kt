@@ -1,5 +1,13 @@
 package org.example.finalrunrater.MAIN.domain.Entities
 
+import org.example.finalrunrater.MAIN.domain.Enums.EnumsforBetTypes
+
+/**
+ Important Notes:
+ This is the first step in defining the Entity Package inside the domain package..
+
+ * **/
+
 data class BettingOptionEntity(
     val id: String,              // Unique identifier for the betting option
     val match: MatchEntity,            // The match this betting option is associated with

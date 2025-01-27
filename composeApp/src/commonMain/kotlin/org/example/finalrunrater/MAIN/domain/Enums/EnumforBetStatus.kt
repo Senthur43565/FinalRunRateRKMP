@@ -1,4 +1,4 @@
-package org.example.finalrunrater.MAIN.domain.Entities
+package org.example.finalrunrater.MAIN.domain.Enums
 
 enum class EnumforBetStatus {
     PENDING,       // The bet is placed, but the outcome is not yet determined

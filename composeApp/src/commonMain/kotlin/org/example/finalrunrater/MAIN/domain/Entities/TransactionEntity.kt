@@ -1,5 +1,8 @@
 package org.example.finalrunrater.MAIN.domain.Entities
 
+import org.example.finalrunrater.MAIN.domain.Enums.EnumforTransactionStatus
+import org.example.finalrunrater.MAIN.domain.Enums.EnumforTransactionType
+
 data class TransactionEntity(
     val id: String,              // Unique identifier for the transaction
     val user: UserEntity,              // The user who made the transaction
