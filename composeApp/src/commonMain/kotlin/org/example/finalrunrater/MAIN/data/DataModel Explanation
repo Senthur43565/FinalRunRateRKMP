@@ -1,0 +1,2 @@
+Alright, imagine you have a big toy chest (the Domain layer) where you keep all your important toys neatly organized.
+Now, you need a helper (the Data layer) to go fetch those toys from different places — like your room (local storage) or the toy store (API).
