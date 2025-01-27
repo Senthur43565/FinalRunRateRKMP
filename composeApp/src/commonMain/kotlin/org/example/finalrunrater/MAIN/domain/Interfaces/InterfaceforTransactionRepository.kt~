@@ -1,0 +1,15 @@
+package org.example.finalrunrater.MAIN.domain.Interfaces
+
+/**
+ **Important Notes**
+THIS IS THE 4th STEP IN DEFINING THE INTERFACES
+  **/
+
+import org.example.finalrunrater.MAIN.domain.Entities.TransactionEntity
+import org.example.finalrunrater.MAIN.domain.Enums.EnumforTransactionStatus
+
+interface InterfaceforTransactionRepository {
+    suspend fun getTransactions(userId: String): Result<List<TransactionEntity>>
+    suspend fun createTransaction(transaction: TransactionEntity): Result<TransactionEntity>
+    suspend fun updateTransactionStatus(transactionId: String, status: EnumforTransactionStatus): Result<Boolean>
+}
